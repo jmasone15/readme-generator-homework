@@ -1,9 +1,9 @@
-# Test2
-  !renderLicenseLink
+# Test 6
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
   ## Description
 
-  This project is a test of the readme
+  blah blah balh
 
   ## Table of Contents
 
@@ -27,7 +27,7 @@
 
   ## Usage
 
-  nothing really
+  not much
 
   ## License
 
@@ -35,7 +35,7 @@
 
   ## Contributing
 
-  fork and push
+  clone and fork
 
   ## Tests
 

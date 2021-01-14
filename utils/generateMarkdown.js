@@ -1,22 +1,19 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
-
-const inquirer = require("inquirer")
-
 // If there is no license, return an empty string
-function renderLicenseBadge(license) { }
+function renderLicenseBadge(license) {}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) { }
+function renderLicenseLink(license) {}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) { }
+function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-  !renderLicenseLink
+  [![License: ${data.license}](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
   ## Description
 
@@ -24,17 +21,17 @@ function generateMarkdown(data) {
 
   ## Table of Contents
 
-  *[Installation](#installation)
+  * [Installation](#installation)
   
-  *[Usage](#usage)
+  * [Usage](#usage)
   
-  *[License](#license)
+  * [License](#license)
 
-  *[Contributing](#installation)
+  * [Contributing](#installation)
 
-  *[Tests](#tests)
+  * [Tests](#tests)
 
-  *[Questions](#questions)
+  * [Questions](#questions)
 
   ## Installation
 
@@ -62,7 +59,7 @@ function generateMarkdown(data) {
 
   ## Questions
 
-  If you have any questions about the repo, open an issue or contact me directly at jordanmasone1@gmail.com. You can find more of my work at [jmasone15](https://github.com/jmasone15).
+  If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at [${data.username}](https://github.com/${data.username}).
   
 
 `;
