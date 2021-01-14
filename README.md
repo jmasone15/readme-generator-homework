@@ -7,17 +7,17 @@
 
   ## Table of Contents
 
-  *[Installation](#installation)
+  * [Installation](#installation)
   
-  *[Usage](#usage)
+  * [Usage](#usage)
   
-  *[License](#license)
+  * [License](#license)
 
-  *[Contributing](#installation)
+  * [Contributing](#installation)
 
-  *[Tests](#tests)
+  * [Tests](#tests)
 
-  *[Questions](#questions)
+  * [Questions](#questions)
 
   ## Installation
 
