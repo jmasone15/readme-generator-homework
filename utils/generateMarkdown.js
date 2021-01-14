@@ -20,7 +20,7 @@ function generateMarkdown(data) {
   
   ## Description
 
-  {data.description}
+  ${data.description}
 
   ## Table of Contents
 
@@ -40,25 +40,25 @@ function generateMarkdown(data) {
 
   To install necessary dependencies, run the following command:
 
-  {data.install}
+  ${data.install}
 
   ## Usage
 
-  {data.usage}
+  ${data.usage}
 
   ## License
 
-  {data.license}
+  ${data.license}
 
   ## Contributing
 
-  {data.contribute}
+  ${data.contribute}
 
   ## Tests
 
   To run tests, run the following command:
 
-  {data.test}
+  ${data.test}
 
   ## Questions
 
