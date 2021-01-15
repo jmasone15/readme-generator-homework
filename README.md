@@ -1,9 +1,9 @@
-# Test 6
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Test 11
+  [![License: GPL 3.0](https://img.shields.io/badge/License-gpl-3.0-yellow.svg)](https://opensource.org/licenses/gpl-3.0)
   
   ## Description
 
-  blah blah balh
+  blah blah blah
 
   ## Table of Contents
 
@@ -23,28 +23,30 @@
 
   To install necessary dependencies, run the following command:
 
-  npm i inquirer
+    npm i inquirer
 
   ## Usage
 
-  not much
+    nah
 
   ## License
+    
+    This project is licensed under the GPL 3.0 license.
 
-  MIT
+    GPL 3.0
 
   ## Contributing
 
-  clone and fork
+    nah
 
   ## Tests
 
-  To run tests, run the following command:
+    To run tests, run the following command:
 
-  npm test
+    npm test
 
   ## Questions
 
-  If you have any questions about the repo, open an issue or contact me directly at jordanmasone1@gmail.com. You can find more of my work at [jmasone15](https://github.com/jmasone15).
+    If you have any questions about the repo, open an issue or contact me directly at jordanmasone1@gmail.com. You can find more of my work at [jmasone15](https://github.com/jmasone15).
   
 

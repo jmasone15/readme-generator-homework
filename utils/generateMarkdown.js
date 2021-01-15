@@ -1,19 +1,40 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+function renderLicenseBadge(license) {
+  if (license !== 'none') {
+    return `[![License: ${license}]`
+  } else {
+    return ''
+  }
+  
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  const licenseLink = license.toLowerCase().split(' ').join('-');
+  if (licenseLink !== 'none') {
+    return `(https://img.shields.io/badge/License-${licenseLink}-yellow.svg)](https://opensource.org/licenses/${licenseLink})`
+  } else {
+    return ''
+  }
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+  const licenseLink = license.toLowerCase().split(' ').join('-');
+  if (licenseLink !== 'none') {
+    return `## License
+    
+    This project is licensed under the ${license} license.`
+  }
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-  [![License: ${data.license}](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  ${renderLicenseBadge(data.license)}${renderLicenseLink(data.license)}
   
   ## Description
 
@@ -37,29 +58,29 @@ function generateMarkdown(data) {
 
   To install necessary dependencies, run the following command:
 
-  ${data.install}
+    ${data.install}
 
   ## Usage
 
-  ${data.usage}
+    ${data.usage}
 
-  ## License
+  ${renderLicenseSection(data.license)}
 
-  ${data.license}
+    ${data.license}
 
   ## Contributing
 
-  ${data.contribute}
+    ${data.contribute}
 
   ## Tests
 
-  To run tests, run the following command:
+    To run tests, run the following command:
 
-  ${data.test}
+    ${data.test}
 
   ## Questions
 
-  If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at [${data.username}](https://github.com/${data.username}).
+    If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at [${data.username}](https://github.com/${data.username}).
   
 
 `;
