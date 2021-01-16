@@ -1,9 +1,9 @@
-# Test 11
-  [![License: GPL 3.0](https://img.shields.io/badge/License-gpl-3.0-yellow.svg)](https://opensource.org/licenses/gpl-3.0)
+# Test 13
+  [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
   
   ## Description
 
-  blah blah blah
+  blha blah blah blah bah blah blah blah
 
   ## Table of Contents
 
@@ -27,17 +27,17 @@
 
   ## Usage
 
-    not much
+    use it at your leisure
 
   ## License
     
-    This project is licensed under the GPL 3.0 license.
+    This project is licensed under the BSD 3 license.
 
-    GPL 3.0
+    BSD 3
 
   ## Contributing
 
-    not much
+    fork an push
 
   ## Tests
 
