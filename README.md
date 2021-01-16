@@ -27,7 +27,7 @@
 
   ## Usage
 
-    nah
+    not much
 
   ## License
     
@@ -37,7 +37,7 @@
 
   ## Contributing
 
-    nah
+    not much
 
   ## Tests
 
